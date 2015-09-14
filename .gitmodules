@@ -1,0 +1,3 @@
+[submodule "Assets/Tools/AppBuilder"]
+	path = Assets/Tools/AppBuilder
+	url = git@github.com:angelotadres/AppBuilder.git
