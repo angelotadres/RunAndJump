@@ -6,16 +6,11 @@ namespace RunAndJump {
 
 		private Sprite _bg;
 		private Camera _boundsCam;
-		private Vector3 _camPos;
-		private Vector3 _lastCamPos;
 		private List<Transform> _bgTransforms;
 		private List<SpriteRenderer> _bgRenderers;
-		private bool _ready;
 
 		private int _totalX = 3;
 		private int _totalY = 1;
-
-		private Vector3 _delta;
 
 		public void Init(Sprite bg, Camera boundsCam) {
 			if(bg == null) {
@@ -24,11 +19,7 @@ namespace RunAndJump {
 			}
 			_bg = bg;
 			_boundsCam = boundsCam;
-			_camPos = boundsCam.transform.position;
-			_lastCamPos = _camPos;
-			_delta = Vector3.zero;
 			CreateInstances();
-			_ready = true;
 		}
 		 
 		private void CreateInstances () {
