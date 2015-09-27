@@ -11,7 +11,6 @@ GameObject:
   - 212: {fileID: 21293612}
   - 61: {fileID: 6144342}
   - 114: {fileID: 11435638}
-  - 114: {fileID: 11489120}
   m_Layer: 10
   m_Name: InteractiveTreasure
   m_TagString: Untagged
@@ -56,17 +55,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TreasurePickupFx: {fileID: 8300000, guid: a8b9ca67a7f934e65adc4098fcdf7e72, type: 3}
---- !u!114 &11489120
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 193612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ee1bedb4c064da6ad90c493777da6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &21293612
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -115,7 +103,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: inspectedScript
       value: 
-      objectReference: {fileID: 11489120}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193612}
