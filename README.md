@@ -7,7 +7,7 @@ A basic 2D platformer video game used as a base project in the book [Extending U
 
 ## Requirements
 
-* You MUST have Unity 5.2 or above installed to run this project. *
+**You MUST have Unity 5.2.x installed to run this project.**
 
 ## Usage
 
