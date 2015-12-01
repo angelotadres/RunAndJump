@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 496998}
   - 212: {fileID: 21296998}
   - 61: {fileID: 6192882}
-  - 114: {fileID: 11486856}
+  - 114: {fileID: 11438102}
   m_Layer: 9
   m_Name: SolidDirt
   m_TagString: Untagged
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.27999997, y: 1.27999997}
---- !u!114 &11486856
+--- !u!114 &11438102
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 196998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ee1bedb4c064da6ad90c493777da6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 45043e70550ee4c5ca7d46954b494f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &21296998
@@ -102,7 +102,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: inspectedScript
       value: 
-      objectReference: {fileID: 11486856}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 196998}
