@@ -1,7 +1,7 @@
 # Run and Jump
 A basic 2D platformer video game used as a base project in the book [Extending Unity with Editor Scripting](https://www.packtpub.com/game-development/extending-unity-editor-scripting) published by *Packt Publishing*.
 
-![Book Cover](http://angelotadres.com/wp-content/uploads/2015/05/B04640_BookCover-243x300.jpg)
+![Book Cover](https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/1853OT.jpg)
 
 > "This book is for anyone who has at least a basic knowledge of Unity programming using C# and wants to learn how to extend and create custom tools using Editor Scripting to improve the development workflow and make the video game development easier."
 
