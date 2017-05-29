@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 namespace RunAndJump {
@@ -8,7 +9,7 @@ namespace RunAndJump {
 		private static Level _level;
 
 		public static IEnumerator LoadLevel(string sceneName) {
-			Application.LoadLevelAdditive(sceneName);
+			SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
 			yield return 0;
 			_level = GameObject.FindObjectOfType<Level>();
 		}
